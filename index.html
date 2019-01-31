@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Higher Lower Game</title>
+  <link rel="icon" href="img/fav.png" type="image/png" sizes="16x16">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="page-wrapper">
+      <div id="start-wrap">
+          <div class="container-fluid text-center ">
+            <div class="row">
+              <div class="col-12 mt-5">
+                          <div class="logo-wrap">
+                            <img src="logo.png" alt="">
+                          </div>
+              </div>    
+              <div class="col-12 mt-2">
+                  <div class="header">
+                    <h2>the higher lower game</h2>
+                  </div>
+               </div> 
+              <div class="col-12 mt-5">
+                  <button class="btn btn-lg btn-dark" id="btn-play">LETS PLAY</button>
+              </div> 
+            </div>
+        
+          </div>
+        
+        </div>  
+        
+        <div id="game-wrap">
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 mt-3 text-center">
+                    <div class="header">
+                      <h3>the higher lower game</h3>
+                    </div>
+                 </div> 
+              <div class="col-12  text-center">
+                <div class="heart-wrap">
+                  <ul>
+                      <li>
+                        <span class="redheart"><i class="fas fa-heart"></i></span>
+                        <span class="redheart"><i class="fas fa-heart"></i></span>
+                        <span class="redheart"><i class="fas fa-heart"></i></span>
+                      </li>
+                    </ul>
+                </div>
+              </div>
+              <div class="col-12 p-2">
+                <div class="row">
+                    <div class="col-6 text-right">
+                        <span class="score-wrap">Score:<span class="score">0</span></span>
+                    </div>
+                    <div class="col-6">
+                        <span class="score-wrap">Target:<span class="target"></span></span>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 text-center" id="inside-wrap">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="content-wrapper">
+                          <div class="inside-content content-win">
+                           <h5>Congratulation</h5>
+                           <h6>You win</h6>
+                           <button class="btn btn-success btn-playAg">Play Again</button>
+                       </div>
+                        <div class="inside-content content-defeat">
+                          <h5>Game over</h5>
+                          <h6>You Defeated</h6>
+                           <button class="btn btn-danger btn-rty">Retry</button>
+                        </div>
+                    
+                      </div>
+                     </div>
+                  </div>
+         </div>
+         
+              <div class="col-12 mt-4  text-center">
+                 <div class="row">
+                   <div class="col-12 mb-2">
+                      <button class="btn btn-primary" id ="high">HIGHER <i class="fas fa-arrow-circle-up"></i></button>
+                   </div>
+                   
+              <div class="col-12 text-center">
+                <div class="random-card"></div>
+              </div>
+                   <div class="col-12 mt-2">
+                      <button class="btn  btn-warning" id="low">LOWER <i class="fas fa-arrow-circle-down"></i></button>
+                   </div>
+                 </div>
+              </div>
+              <div class="col-12">
+                 <div class="row">
+                    <div class="col-6 mt-2 text-strat">
+                        <button class="btn btn-reset btn-info" >reset</button>
+                    </div>
+                    <div class="col-6 mt-2 text-right">
+                        <button class="btn btn-exit btn-danger" >exit</button>
+                    </div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+  </div>
+
+
+
+<script src="jquery-3.3.1.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

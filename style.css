@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Saira+Extra+Condensed|Special+Elite');
+body{
+    background: black;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #f4f4f4;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    letter-spacing: 3px;
+    
+}
+button{
+    letter-spacing: 2px;
+}
+h2 {
+    color:#403c3b
+}
+h3{
+
+    color: #ffab82
+}
+h5{
+    margin-bottom: 10px;
+}
+h6{
+    margin-bottom: 10px;
+}
+#page-wrapper{
+  width: 100%;
+  height: 100%;
+  background-color: -moz-radial-gradient(ellipse at center, #18fd9e  0%, rgb(34, 7, 37) 100%);
+  background: -webkit-radial-gradient(ellipse at center, #18fd9e  0%, rgb(34, 7, 37) 100%);
+  background: -ms-radial-gradient(ellipse at center, #18fd9e  0%, rgb(34, 7, 37) 100%);
+  background: -o-radial-gradient(ellipse at center, #18fd9e  0%, rgb(34, 7, 37) 100%);
+  background: radial-gradient(ellipse at center, #18fd9e  0%, rgb(34, 7, 37) 100%);
+}
+#game-wrap{
+    position: relative;
+    height: 100%;
+}
+ul{
+    padding-left:0;
+}
+li{
+    list-style: none;
+}
+
+.random-card{
+    width: 120px;
+    margin: 0 auto;
+    height: 150px;
+    padding: 17px;
+    border-radius: 5px;
+    background: #21252924;
+}
+.score-wrap {
+    background: #00000036;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+.target,
+.score {
+
+    margin: 0 6px;
+
+}
+.random-card img{
+    width:100%;
+    height: 100%;
+}
+
+.fa-heart{
+    font-size: 22px;
+    margin: 0 6px;
+    text-align: center;
+}
+.redheart{
+    color: red;
+}
+.blackheart{
+    color: black;
+}
+
+#inside-wrap {
+    position: absolute;
+    z-index: 33;
+    height: 100%;
+    height: 100%;
+    background: #00000063;
+}
+.content-wrapper{
+    position: relative;
+    width: 290px;
+    margin: 0 auto;
+    height: 100%;
+}
+.inside-content{
+    position: absolute;
+    width: 100%;
+    background: #63040d;
+    height: 200px;
+    top: 25vh;
+    left: 0;
+    border-radius: 5px;
+    padding-top: 58px;
+    letter-spacing: 5px;
+}
+.content-win{
+    font-family: 'Lobster', cursive;
+}
+.content-defeat{  
+font-family: 'Special Elite', cursive;
+}
+@media (min-width:577px){
+   #page-wrapper{
+        width: 550px;
+        margin: 0 auto;
+        margin-top:15px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+
+   }
+}
