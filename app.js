@@ -8,7 +8,8 @@ $(document).ready(function(){
          $("#start-wrap").hide();
          $("#game-wrap").show();
         $("#inside-wrap").hide();
-         let  arr = ["img/no0.png","img/no1.png","img/no2.png","img/no3.png","img/no4.png","img/no5.png","img/no6.png","img/no7.png","img/no8.png","img/no9.png","img/no10.png","img/no11.png","img/no12.png"]
+        //reset everything
+        let  arr = ["img/no0.png","img/no1.png","img/no2.png","img/no3.png","img/no4.png","img/no5.png","img/no6.png","img/no7.png","img/no8.png","img/no9.png","img/no10.png","img/no11.png","img/no12.png"]
          let ranArr=arr[Math.floor(Math.random()*arr.length)]
 
          ranNum = arr.indexOf(ranArr);
@@ -46,7 +47,7 @@ $(document).ready(function(){
       prevRanNum=findPrevNum[1] 
       }
  
-  // else if Condition for Higher & Lower
+  //if Condition for Higher & Lower
   function condition1(){
       scorecount++      
       $(".score").html(scorecount)
